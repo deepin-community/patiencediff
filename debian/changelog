@@ -1,5 +1,76 @@
-template-repository (1.0-1) unstable; urgency=medium
+patiencediff (0.2.13-1) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Update standards version to 4.6.1, no changes needed.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Jelmer Vernooĳ ]
+  * New upstream release.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 11 Feb 2023 13:56:21 +0000
+
+patiencediff (0.2.3-2) unstable; urgency=medium
+
+  * Drop obsolete files.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 16 Oct 2022 23:45:40 +0100
+
+patiencediff (0.2.3-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 25 Sep 2022 01:14:55 +0100
+
+patiencediff (0.2.1-2) unstable; urgency=medium
+
+  * Update standards version to 4.5.1, no changes needed.
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on python3 and python3-all-dev.
+  * Update standards version to 4.6.0, no changes needed.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Thu, 26 May 2022 10:37:10 +0100
+
+patiencediff (0.2.1-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Bump Standards-Version to 4.4.1.
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Debian Janitor ]
+  * Remove obsolete fields Name, Contact from debian/upstream/metadata.
+
+  [ Jelmer Vernooĳ ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.0, no changes needed.
+  * New upstream release.
+  * Bump debhelper from old 12 to 13.
+  * Set Rules-Requires-Root.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 14 Oct 2020 23:51:59 +0000
+
+patiencediff (0.1.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Bump Standards-Version to 4.4.0.
+  * Drop Python 2 support.
+
+ -- Ondřej Nový <onovy@debian.org>  Sat, 03 Aug 2019 21:52:09 +0200
+
+patiencediff (0.1.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Set upstream metadata fields: Contact.
+  * Add autopkgtests.
+  * Enable hardening.
+  * Add build dependency on setuptools.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 03 Jun 2019 20:14:38 +0000
+
+patiencediff (0.0.4-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #923618)
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 02 Mar 2019 21:25:08 +0000

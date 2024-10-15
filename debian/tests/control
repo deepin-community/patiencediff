@@ -1,0 +1,3 @@
+Tests: testsuite3
+Depends: @, python3-setuptools
+Restrictions: allow-stderr
